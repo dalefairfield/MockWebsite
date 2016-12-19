@@ -1,0 +1,158 @@
+#container
+{
+  background: radial-gradient(circle, dimgrey , black);
+  width:970px;
+  height: auto;
+
+  position: absolute;
+}
+#header
+{
+  background: white;
+  text-decoration: underline;
+  vertical-align: top;
+  height:auto;
+  width: auto;
+}
+#header h2
+{
+  vertical-align: top;
+  display:inline-block;
+  margin-left: 550px;
+  margin-top: -30px;
+
+}
+#navigation_bar
+{
+  background-color:lightgray;
+  background: -webkit-linear-gradient(dimgrey, lightgray, dimgrey);
+}
+
+.nav tr th
+{
+  border-style: solid;
+  border-width: 1px;
+  border-color: dimgrey;
+  font-size: 16px;
+  display:inline-block;
+  text-decoration: none;
+  padding: 10px;
+}
+.nav a
+{
+  color:dimgray;
+  text-decoration: none;
+  text-align:center;
+  padding:3px;
+}
+.search_bar
+{
+  background-color: lightgrey;
+}
+#about_us
+{
+  vertical-align: top;
+  display: inline-block;
+
+}
+.img
+{
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 15px;
+}
+.about
+{
+  background: -webkit-linear-gradient(left, lightgrey , dimgrey);
+  vertical-align: top;
+  display: inline-block;
+  font-size: 14px;
+  width: 500px;
+  height: 250px;
+  margin-left: auto;
+  padding: 12px;
+}
+.about h3
+{
+
+  margin:-12px;
+  padding: 10px;
+  background: -webkit-linear-gradient(yellow, gold);
+}
+#bold
+{
+  font-weight: bold;
+}
+#specific_content
+{
+  color: wheat;
+  vertical-align: top;
+  display: inline-block;
+  margin: 15px;
+
+}
+.subcontents
+{
+  color: black;
+  vertical-align: top;
+  font-size: 10px;
+  background: linear-gradient(white, moccasin);
+  width: 190px;
+  display: inline-block;
+  align-content: center;
+  padding: 5px;
+  margin: 10px;
+
+}
+.subcontents h2
+{
+  margin: -1px;
+  vertical-align: top;
+  background: linear-gradient(yellow, gold);
+}
+.subcontents input
+{
+  border-radius: 5px;
+  border-right: : none;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: gold;
+  margin-left: 70px;
+  text-decoration: none;
+  color:black;
+
+}
+/*#button
+{
+  background-color: gold;
+
+  right:15.6%;
+  top: 50px
+  width:50px;
+  height: 0px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+.button_text
+{
+
+  left: 35.5%;
+  top: 50px
+  width:50px;
+  height: 0px;
+  border-top: 30px solid black;
+  border-right: 90px solid black;
+  border-bottom: 30px solid black;
+  border-radius-left: 10px;
+}
+  background-color: gold;
+  /*margin-left: 170px;
+  transform:rotate(45deg);
+  border-left: none;
+  border-bottom: none;*/
